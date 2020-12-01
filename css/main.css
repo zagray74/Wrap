@@ -1,0 +1,267 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;   
+} 
+h1, h2, h3 {
+	margin: 0;
+	font-family: "ubuntu" ,sans-serif;
+} 
+.container {
+	width: 1170px;
+	margin: 0 auto;
+} 
+.header {
+	background: rgba(77,192,254,1);
+background: -moz-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(117,189,209,1) 41%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,192,254,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(117,189,209,1) 41%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(117,189,209,1) 41%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(left, rgba(77,192,254,1) 0%, rgba(117,189,209,1) 41%, rgba(55,144,217,1) 100%);
+background: linear-gradient(to right, rgba(77,192,254,1) 0%, rgba(117,189,209,1) 41%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 65px;
+padding-bottom: 100px;
+
+} 
+.one {
+	color: #fff;
+	width: 560px;
+} 
+h1 {
+	font-size: 37px;
+	color: #fff;
+} 
+.span {
+	font-size: 59px;
+	font-family: "Montserrat" ,sans-serif;
+}
+.ofer {
+color: #fff;
+
+} 
+.tu {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	overflow: hidden;
+} 
+.p {
+	color: #fff;
+	font-size: 15px;
+	margin-top: 48px;
+	width: 370px;
+} 
+.btn {
+	background: #ffd429;
+	font-family: "ubuntu" ,sans-serif;
+	display: inline-block;
+	width: 223px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 48px;
+	/*margin-bottom: 210px;*/
+	transition: all 0.5s ease;
+} 
+.btn:hover {
+	background: #d9860e;
+}
+.heder {
+ margin-top: 62px; 
+} 
+.h2 {
+	text-align: center;
+	margin-bottom: 75px;
+}
+.fo {
+margin: 0 auto;	
+padding-top: 87px;
+padding-bottom: 125px;
+
+}
+.divv {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.h3{
+	text-align: center;
+	margin-top: 100px;
+
+}
+.div{
+	width: 320px;
+	background: url(../img/ime.jpg) no-repeat top  ;
+}
+.divq{
+	background: url(../img/time2.jpg) no-repeat top  ;
+    width: 310px;
+}
+.divw{
+	background: url(../img/time3.jpg) no-repeat top  ;
+	width: 350px;	
+}
+.text-text{
+	margin-left: 30px;
+}
+.section {
+		background: #ecf3f8;
+	padding-top: 110px;
+	padding-bottom: 105px;
+}
+.air{
+	text-align: center;
+	margin-bottom: 63px;
+}
+.contact-form input {
+    height: 47px;
+	width: 330px;
+	border: 1px color #bbbbbb;
+    font-size: 15px;
+    margin: 5px;
+    /*display: block;*/
+ 
+}
+.btn-bt{
+	background: #ffd429;
+	font-family: "ubuntu" ,sans-serif;
+	display: block;
+	width: 340px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 30px;
+	transition: all 0.5s ease;
+}
+.contact-form{
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+}
+.abc{
+	text-align: center;
+
+}
+.footer{
+	background: #164d7a;
+	padding: 65px 0;	
+}
+.foot{
+	margin: 0px 0px; 
+	font-size: 15px;
+		
+	text-align: center;
+	color: #ffffff;}	
+  .animated {
+		opacity: 0; 
+	
+}
+@media screen and (max-width: 1200px){
+   .container {
+   	width: 960px;
+   }
+   .one{
+   	width: auto;
+   }
+ }
+@media screen and (max-width: 992px)
+ {
+ .container {
+   	width: 720px;
+   	margin-left: auto;
+   	margin-right: : auto;
+   }
+   
+  .tu {
+  	flex-direction: column;
+  } 
+   .ofer {
+   	width: 100%;
+   }
+   .one {
+   	width: auto;
+   }
+   .divv {
+   	flex-direction: column;
+   	width: auto;
+   }
+   .div{
+   	margin: 0 auto;
+   }
+    .divq {
+    margin: 0 auto;
+    }
+    .divw{
+    margin: 0 auto;	
+    }
+   }
+    
+
+
+
+
+@media screen and (max-width: 768px)
+{
+ .container {
+   	width: 540px;
+   	margin-left: auto;
+   	margin-right: : auto;
+   }
+  
+}
+
+
+
+
+@media screen and (max-width: 576px)
+{
+	 .container {
+   	width: 90%;
+   	margin-left: auto;
+   	margin-right: auto;
+   }
+
+   header .container {
+   	text-align: center;
+   }
+
+   header .p {
+   	width: auto;
+   }
+     
+    .contact-form {
+    	width: 100%;
+    }
+
+	.section {
+		width: 100%    	
+		margin-left: auto;
+    	margin-right: auto;
+    	margin: 5px;
+    	display: block;
+    }
+    .btn-bt {
+    	width: 100%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin: 5px;
+    }
+
+    .contact-form input {
+    	width: 100%;
+    	padding: 0;
+     }
+
+     .contact-form {
+     	width: 100%;
+     }
+
+     .div, .divq, .divw {
+ 		width: auto;
+     }
+     .heder {
+     	width: 100%;
+     }
+}
+
